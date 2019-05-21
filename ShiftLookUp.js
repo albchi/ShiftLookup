@@ -8,7 +8,7 @@ funcGreetings();
 var loop = 5; // must declaration, and initizliation optional
 var dateObj = new Date();
 var hour = dateObj.getHours();
-var nameArray  = ["Allan","Bob","Carl","Dick", "Erik", "Frank", "Geo", "Harry", "Ian", "Jake", "Kirk", "Larry"];
+var nameArray  = ["Allan","Bob","Carl","Dick", "Erik", "Frank", "Geo", "Harry", "Ian", "Jake", "Kirk", "Leonard"];
 
 console.log("It is", hour,":",dateObj.getMinutes(), "'o clock");
 console.log("Time for", nameArray[hour], "to work");
